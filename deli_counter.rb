@@ -16,10 +16,10 @@ end
 
 def now_serving(array)
   if array.size == 0
-    puts "There is nobody waiting to be served."
+    puts "There is nobody waiting to be served!"
   else
     next_in_line = array.shift
-    puts "Currently serving #{}."
+    puts "Currently serving #{next_in_line}."
   end
 end
 
