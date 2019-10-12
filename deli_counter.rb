@@ -11,6 +11,7 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  
+  next_in_line = array.shift
+  puts "Currently serving #{}."
 end
 
