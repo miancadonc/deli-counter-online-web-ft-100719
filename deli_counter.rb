@@ -1,8 +1,7 @@
 
 def line(array)
-  line = ""
-  line << array.each_with_index {|x, i| " #{i+1}. #{x}"}
-  puts "The line is currently:#{line}"
+  if array.size == 0
+    puts ""
 end
 
 def take_a_number(array, name)
